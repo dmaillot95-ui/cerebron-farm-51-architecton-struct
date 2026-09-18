@@ -1,0 +1,17 @@
+{
+  "farm_id": 51,
+  "name": "ARCHITECTON STRUCT Ω",
+  "domain": "structural-fea",
+  "status": "SCAFFOLDED",
+  "evidence_rules": [
+    "CLAIM <= EVIDENCE",
+    "SIMULATION != TEST",
+    "COMPUTATION != PROOF"
+  ],
+  "required_outputs": [
+    "artifact",
+    "validation",
+    "provenance"
+  ],
+  "engines_policy": "candidate engines must be detected and benchmarked before VERIFIED"
+}
