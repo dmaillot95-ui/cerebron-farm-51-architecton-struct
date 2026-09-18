@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "engines": [
+    {
+      "engine_id": "PY-STRUCT-MVP",
+      "name": "Python deterministic structural sanity engine",
+      "category": "structural-calculation",
+      "license": "runtime",
+      "cost": "included",
+      "local_or_cloud": "github-runner",
+      "version": "stdlib",
+      "capabilities": [
+        "axial-bar stress",
+        "strain",
+        "displacement",
+        "unit checks"
+      ],
+      "limitations": [
+        "not FEA",
+        "not nonlinear",
+        "not dynamics"
+      ],
+      "validation_status": "MVP",
+      "benchmark_status": "PENDING"
+    },
+    {
+      "engine_id": "CALCULIX",
+      "name": "CalculiX",
+      "category": "FEA",
+      "license": "GPL",
+      "cost": "free",
+      "local_or_cloud": "runner",
+      "version": "UNKNOWN",
+      "capabilities": [
+        "FEA"
+      ],
+      "limitations": [
+        "availability not yet verified"
+      ],
+      "validation_status": "UNKNOWN",
+      "benchmark_status": "PENDING"
+    },
+    {
+      "engine_id": "CODE_ASTER",
+      "name": "Code_Aster",
+      "category": "FEA",
+      "license": "open-source",
+      "cost": "free",
+      "local_or_cloud": "runner",
+      "version": "UNKNOWN",
+      "capabilities": [
+        "structural mechanics"
+      ],
+      "limitations": [
+        "availability not yet verified"
+      ],
+      "validation_status": "UNKNOWN",
+      "benchmark_status": "PENDING"
+    },
+    {
+      "engine_id": "GMSH",
+      "name": "Gmsh",
+      "category": "meshing",
+      "license": "GPL",
+      "cost": "free",
+      "local_or_cloud": "runner",
+      "version": "UNKNOWN",
+      "capabilities": [
+        "meshing"
+      ],
+      "limitations": [
+        "availability not yet verified"
+      ],
+      "validation_status": "UNKNOWN",
+      "benchmark_status": "PENDING"
+    }
+  ]
+}
