@@ -14,3 +14,5 @@ Rules:
 - Unsupported engines remain unavailable until actually installed and benchmarked.
 
 Initial MVP is deterministic and dependency-light. External FEA engines are registered as candidates until verified in the execution environment.
+
+Validation trigger: 2026-09-18 batch verification.
